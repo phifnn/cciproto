@@ -1,0 +1,9 @@
+name: ""
+description: ""
+
+baseurl: "/cciproto"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty

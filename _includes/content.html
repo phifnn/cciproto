@@ -1,0 +1,74 @@
+<div class="container">
+{% if page.title == 'home' %}
+       <!--<div class="jumbotron" style="text-align:center;">
+        <h1>Welcome to Christ Church of India</h1>
+        <p>God loves you and He cares for you. He wants to have a personal relationship with you.   We promise to provide you with the opportunity to know Him, to grow in Him and to face the world with confidence.</p>
+        
+      </div>-->
+      <div class="row">
+        
+      <div id='slider' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><img src="http://placeimg.com/940/350/nature"></div>
+    <div><img src="http://placeimg.com/940/350/nature/grayscale"></div>
+    <div><img src="http://placeimg.com/940/350/nature"></div>
+    <div><img src="http://placeimg.com/940/350/nature/grayscale"></div>
+    <div><img src="http://placeimg.com/940/350/nature"></div>
+  </div>
+</div>
+
+</div>
+      <!-- Example row of columns -->
+      <div class="row">
+              
+        <div class="six columns">
+          <h2>Sunday</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          
+        </div>
+        <div class="six columns">
+          <h2>Events</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          
+        </div>
+      </div>
+  {% elsif page.title == 'about' %}
+       
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+            <h2>Statement of faith</h2>
+            <p> Text here...</p>
+        </div>        
+        <div class="span12">
+            <h2>Mission</h2>
+            <p> Text here...</p>
+        </div> 
+        <div class="span12">
+            <h2>Vision</h2>
+            <p> Text here...</p>
+        </div> 
+      </div>
+ 
+  {% elsif page.title == 'ministry' %}
+       
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+            <h2>Various ministry pages</h2>
+            <p> Text here...</p>
+        </div>              
+      </div>
+ 
+ {% elsif page.title == 'event' %}
+       
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+            <h2>Various event pages</h2>
+            <p> Text here...</p>
+        </div>              
+      </div>
+ {% endif %}
+     
+</div>

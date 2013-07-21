@@ -1,0 +1,33 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+body{
+	background-color: #ecf0f1;
+}
+#nav1{
+	background-color: #1abc9c;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+#footer{
+	font-size: 12px;
+	text-align: center;
+}
+.navbar ul li > a{
+	color: #34495e;
+	text-shadow: none;
+	font-size: 1.2rem;
+}

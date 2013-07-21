@@ -1,0 +1,8 @@
+Colors:
+
+#1abc9c - Turquoise
+#16a085 - Green sea
+#2ecc71 - Emerald.
+#3498db - Peter river
+#ecf0f1	- cloud
+#34495e - wetasphalt
